@@ -2,8 +2,32 @@ li{
     list-style-type:  none;
 }
 header{
-    background-color: darkslateblue;
+    background: rgba(40, 58, 90, 0.9);
 }
+
+.cts {
+    padding: 12px 0;
+    text-align: center;
+  }
+  
+  .cts img {
+    max-width: 45%;
+    transition: all 0.4s ease-in-out;
+    display: inline-block;
+    padding: 15px 0;
+    filter: grayscale(100);
+  }
+  
+  .cts img:hover {
+    filter: none;
+    transform: scale(1.1);
+  }
+  
+  @media (max-width: 768px) {
+    .cts img {
+      max-width: 40%;
+    }
+  }
 
 .provider{
     height: 600px;
@@ -14,3 +38,11 @@ header{
 .accor{
     width: 500px;
 }
+
+.bgs {
+    background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url("../img/cta-bg.jpg") fixed center center;
+    background-size: cover;
+    
+  }
+
+
