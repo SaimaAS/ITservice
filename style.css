@@ -4,3 +4,9 @@ li{
 header{
     background-color: darkslateblue;
 }
+
+.provider{
+    height: 700px;
+    background-color: lightblue;
+    margin-top: 20px;
+}
